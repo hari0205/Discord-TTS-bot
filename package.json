@@ -1,0 +1,41 @@
+{
+  "name": "Twilight_bot",
+  "version": "1.0.0",
+  "description": "Just a rather simple discord bot. Inspired from anime SPYxFAMILY",
+  "main": "./bot.js",
+  "engines": {
+    "node": ">=16.9.0",
+    "npm": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bot.js",
+    "dev" : "nodemon ./bot.js"
+  },
+  "keywords": [
+    "discord-bot",
+    "javascript",
+    "discordjsbot",
+    "nodejs-bot",
+    "nodejs",
+    "node-js",
+    "bot",
+    "tts",
+    "text-to-speech"
+  ],
+  "author": "hari0205",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "@discordjs/voice": "^0.8.0",
+    "axios": "^0.27.2",
+    "discord-api-types": "^0.27.3",
+    "discord.js": "^13.6.0",
+    "ffmpeg-static": "^4.4.1",
+    "libsodium-wrappers": "^0.7.9",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
